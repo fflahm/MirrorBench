@@ -30,10 +30,5 @@
         "path": "./assets/marks/logo_white.png",
         "scale": 0.5,
         "desc": "a mark featuring a 3D interlocking symbol made of three smooth, white curved bands against a black background"
-    },
-    "wheel":
-    {
-        "path": null,
-        "desc": "a big, black, solid rubber wheel"
     }
 }

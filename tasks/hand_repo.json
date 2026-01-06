@@ -2,8 +2,8 @@
     "mano_white":
     {
         "track": "Human",
-        "root": "none",
-        "path": "./assets/human_hand_refined.usdc",
+        "root": "this",
+        "path": "/assets/hands/human_hand_refined.usdc",
         "collision_x": 0.1,
         "color": [253, 253, 253],
         "desc": "a floating white human hand"
@@ -11,8 +11,8 @@
     "mano_brown":
     {
         "track": "Human",
-        "root": "none",
-        "path": "./assets/human_hand_refined.usdc",
+        "root": "this",
+        "path": "/assets/hands/human_hand_refined.usdc",
         "collision_x": 0.1,
         "color": [122, 77, 55],
         "desc": "a floating brown human hand"
@@ -20,8 +20,8 @@
     "mano_purple":
     {
         "track": "Human",
-        "root": "none",
-        "path": "./assets/human_hand_refined.usdc",
+        "root": "this",
+        "path": "/assets/hands/human_hand_refined.usdc",
         "collision_x": 0.1,
         "color": [64, 64, 128],
         "desc": "a floating purple human hand"
@@ -30,7 +30,7 @@
     {
         "track": "Robot",
         "root": "this",
-        "path": "/assets/AllegroHand/allegro_hand.usd",
+        "path": "/assets/hands/AllegroHand/allegro_hand.usd",
         "ori": [0.0, 0.0, 135.0],
         "scale": 0.8,
         "collision_x": 0.1,
@@ -40,8 +40,8 @@
     "shadow_hand":
     {
         "track": "Robot",
-        "root": "none",
-        "path": "./assets/shadow_hand_no_forearm_adjusted.usd",
+        "root": "this",
+        "path": "/assets/hands/shadow_hand_no_forearm_adjusted.usd",
         "ori": [-90.0, 90.0, 0.0],
         "collision_x": 0.1,
         "color": [32, 32, 32],
@@ -51,7 +51,7 @@
     {
         "track": "Robot",
         "root": "this",
-        "path": "/assets/2F-85/Robotiq_2F_85_flattened.usd",
+        "path": "/assets/hands/2F-85/Robotiq_2F_85_flattened.usd",
         "ori": [0.0, -90.0, 0.0],
         "scale": 2.0,
         "collision_x": 0.1,

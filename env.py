@@ -13,7 +13,6 @@ from isaacsim.storage.native import get_assets_root_path
 import carb
 
 root_dict = {"none": "",
-              "local": "A:/isaac-sim-assets-1-4.5.0/Assets/Isaac/4.5",
               "remote": get_assets_root_path(),
               "this": os.getcwd()}
 
