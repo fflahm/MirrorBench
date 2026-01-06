@@ -1,0 +1,93 @@
+{
+    "male_0":
+    {
+        "track": "Human",
+        "root": "this",
+        "path": "/assets/bodies/male_adult_construction_01_new/male_adult_construction_01_new.usd",
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a male character wearing a red helmet)",
+        "desc_short": "human body",
+        "hand_pos_init": [0.7, -0.5, 1.5],
+        "mark_pos": [0.0, -0.1, 1.2]
+    },
+    "male_1":
+    {
+        "track": "Human",
+        "root": "this",
+        "path": "/assets/bodies/M_Medical_01/M_Medical_01.usd",
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a male character wearing a brown jacket and a grey shirt)",
+        "desc_short": "human body",
+        "hand_pos_init": [0.6, 0.3, 1.5],
+        "mark_pos": [0.0, -0.1, 1.3]
+    },
+    "female_0":
+    {
+        "track": "Human",
+        "root": "this",
+        "path": "/assets/bodies/female_adult_police_01_new/female_adult_police_01_new.usd",
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a female character wearing a blue shirt and dark pants)",
+        "desc_short": "human body",
+        "hand_pos_init": [0.6, -0.5, 0.9],
+        "mark_pos": [0.0, 0.0, 1.0]
+    },
+    "female_1":
+    {
+        "track": "Human",
+        "root": "this",
+        "path": "/assets/bodies/F_Business_02/F_Business_02.usd",
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a female character wearing a purple vest over a green shirt and dark pants)",
+        "desc_short": "human body",
+        "hand_pos_init": [0.6, 0.4, 1.2],
+        "mark_pos": [0.0, -0.1, 1.0]
+    },
+    "tienkung":
+    {
+        "track": "Robot",
+        "root": "this",
+        "path": "/assets/bodies/Tien Kung/tienkung.usd",
+        "pos": [0.0, 0.0, 0.85],
+        "ori": [0.0, 0.0, 0.0],
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a black humanoid robot)",
+        "desc_short": "robotic body",
+        "hand_pos_init": [0.5, -0.2, 1.3],
+        "mark_pos": [0.0, 0.0, 1.2]
+    },
+    "GR1_T2":
+    {
+        "track": "Robot",
+        "root": "this",
+        "path": "/assets/bodies/GR-1/GR1_T2.usd",
+        "pos": [0.0, 0.0, 0.95],
+        "ori": [0.0, 0.0, 0.0],
+        "collision_x": 0.3,
+        "color": null,
+        "desc_full": "body (a black humanoid robot)",
+        "desc_short": "robotic body",
+        "hand_pos_init": [0.4, 0.2, 1.55],
+        "mark_pos": [0.0, 0.0, 1.25]
+    },
+    "nova_carter":
+    {
+        "track": "Robot",
+        "root": "this",
+        "path": "/assets/bodies/Carter/nova_carter.usd",
+        "pos": [0.0, 0.5, 0.0],
+        "scale": 2.0,
+        "collision_x": 1.1,
+        "color": null,
+        "desc_full": "body (a white wheeled robot)",
+        "desc_short": "robotic body",
+        "hand_pos_init": [0.8, 0.1, 0.9],
+        "mark_pos": [0.0, 0.0, 0.5],
+        "camera_focal": 2.0
+    }
+}

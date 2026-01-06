@@ -1,0 +1,39 @@
+{
+    "splash":
+    {
+        "path": "./assets/marks/splash.png",
+        "desc": "a mark featuring a red emblem-like pattern in a splash shape"
+    },
+    "leaf_0":
+    {
+        "path": "./assets/marks/aoi.png",
+        "desc": "a mark featuring a dark green abstract leaf-like symbol with three rounded lobes"
+    },
+    "leaf_1":
+    {
+        "path": "./assets/marks/leaf.png",
+        "desc": "a mark featuring a stylized leaf on a light blue background"
+    },
+    "bread":
+    {
+        "path": "./assets/marks/bread.png",
+        "desc": "a mark featuring a wavy, abstract shape outlined in purple with a light blue fill, set against a solid blue background"
+    },
+    "logo_0":
+    {
+        "path": "./assets/marks/logo_blue.png",
+        "scale": 0.5,
+        "desc": "a mark featuring a glossy blue, rounded diamond-shaped emblem with a black oval cutout in the center, set against a white background"
+    },
+    "logo_1":
+    {
+        "path": "./assets/marks/logo_white.png",
+        "scale": 0.5,
+        "desc": "a mark featuring a 3D interlocking symbol made of three smooth, white curved bands against a black background"
+    },
+    "wheel":
+    {
+        "path": null,
+        "desc": "a big, black, solid rubber wheel"
+    }
+}
