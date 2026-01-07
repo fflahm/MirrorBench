@@ -1,11 +1,11 @@
   <h1>MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror</h1>
 
   <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="teasers/fig2.pdf">
+      <img style="width:100%" src="teasers/fig2.png">
   </div>
 
 
-<div align="left">
+
 ## Installation
 
 ### Install Dependencies
