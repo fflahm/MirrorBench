@@ -28,6 +28,7 @@ $ISAACSIM_ROOT/python.sh -m pip install openai==1.79.0
 ### Download Assets
 
 ```shell
+pip install huggingface_hub
 python download.py
 ```
 
