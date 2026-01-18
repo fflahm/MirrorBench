@@ -8,7 +8,7 @@
 
 ## Installation
 
-### Install Prerequisites
+### Setup Simulation
 Download and unzip NVIDIA Isaac Sim 4.5.0 (Standalone) from the proper link in https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html.
 
 And set the environment variable `ISAACSIM_ROOT` with, for example, `set ISAACSIM_ROOT= "D:\isaac-sim-4.5.0"` (Windows) or `export ISAACSIM_ROOT=/home/user/isaac-sim-4.5.0` (Linux).
@@ -16,8 +16,11 @@ And set the environment variable `ISAACSIM_ROOT` with, for example, `set ISAACSI
 ### Install Dependencies
 
 ```shell
-%ISAACSIM_ROOT%\python.bat -m pip install openai==1.79.0 # Windows
-$ISAACSIM_ROOT/python.sh -m pip install openai==1.79.0 # Linux
+# Windows
+%ISAACSIM_ROOT%\python.bat -m pip install openai==1.79.0
+
+# Linux
+$ISAACSIM_ROOT/python.sh -m pip install openai==1.79.0
 ```
 
 ### Download Assets
@@ -28,8 +31,26 @@ python download.py
 
 ## Evaluation
 
+TODOs: API; Other agent types: opensource, human, random; Args; Results
 
+### Single Scenario
+You may familiarize yourself with a single inference scenario in **MirrorBench** by running commands like:
+```shell
+# Windows
+%ISAACSIM_ROOT%\python.bat  inference.py --body male_0 --hand mano_white --mark splash --level 1 --model gpt-4o
 
+# Linux
+$ISAACSIM_ROOT/python.bat  inference.py --body male_0 --hand mano_white --mark splash --level 1 --model gpt-4o
+```
+
+### Full Evaluation
+We also prepare scripts for full evaluation with 5000+ inference steps for each MLLM. To use them, run:
+```shell
+# Windows
+evaluate.bat MODEL_NAME
+# Linux
+./evaluate.sh MODEL_NAME
+```
 
 ## Citation
 

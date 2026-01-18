@@ -14,11 +14,11 @@ instruction_dict = {
 }
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--body", type=str, default="male_0")
-parser.add_argument("--hand", type=str, default="mano_white")
-parser.add_argument("--mark", type=str, default="splash")
-parser.add_argument("--level", type=int, default=0, help="MSR level: 0, 1, 2, or 3")
-parser.add_argument("--model", type=str, default="internvl3-78b", help="Model name to use")
+parser.add_argument("--body", type=str)
+parser.add_argument("--hand", type=str)
+parser.add_argument("--mark", type=str)
+parser.add_argument("--level", type=int, help="MSR level: 0, 1, 2, or 3")
+parser.add_argument("--model", type=str, help="Model name to use")
 parser.add_argument("--max_steps", type=int, default=-1, help="Maximum number of steps, -1 for auto")
 parser.add_argument("--max_image_history", type=int, default=1, help="Maximum number of images to keep in history")
 parser.add_argument("--headless", action="store_true", help="Run in headless mode")
