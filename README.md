@@ -12,7 +12,7 @@
 
 ### Setup Simulation
 Download and unzip NVIDIA Isaac Sim 4.5.0 (Standalone) from the official download page, choosing the link corresponding to your operating system:
-https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html
+https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html.
 
 Then set the environment variable `ISAACSIM_ROOT`, for example: `set ISAACSIM_ROOT= "D:\isaac-sim-4.5.0"` (Windows) or `export ISAACSIM_ROOT=/home/user/isaac-sim-4.5.0` (Linux).
 
