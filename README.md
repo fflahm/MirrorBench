@@ -1,10 +1,12 @@
-  <h1>MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror</h1>
+# MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror
 
-  <div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="teasers/fig2.png">
-  </div>
+<p align="center">
+   <a href="https://fflahm.github.io/mirror-bench-page/" target="_blank">🌐 Project Page</a> | <a href="https://huggingface.co/datasets/flahm/MirrorBenchAssets" target="_blank">🤗 Data</a> | <a href="#" target="_blank">📃 Paper(TBD) </a>
+</p>
 
-
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="teasers/fig2.png">
+</div>
 
 ## Installation
 
@@ -48,6 +50,7 @@ We also prepare scripts for full evaluation with 5000+ inference steps for each 
 ```shell
 # Windows
 evaluate.bat MODEL_NAME
+
 # Linux
 ./evaluate.sh MODEL_NAME
 ```
