@@ -16,7 +16,7 @@ Download and unzip NVIDIA Isaac Sim 4.5.0 (Standalone) from the proper link in h
 And set the environment variable `ISAACSIM_ROOT` with, for example, `set ISAACSIM_ROOT= "D:\isaac-sim-4.5.0"` (Windows) or `export ISAACSIM_ROOT=/home/user/isaac-sim-4.5.0` (Linux).
 
 ### Install Dependencies
-
+Run:
 ```shell
 # Windows
 %ISAACSIM_ROOT%\python.bat -m pip install openai==1.79.0
@@ -26,11 +26,12 @@ $ISAACSIM_ROOT/python.sh -m pip install openai==1.79.0
 ```
 
 ### Download Assets
-
+Run:
 ```shell
 pip install huggingface_hub
 python download.py
 ```
+Then you will find necessary assets in `assets` directory.
 
 ## Evaluation
 
