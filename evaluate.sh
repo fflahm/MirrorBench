@@ -17,7 +17,7 @@ for l in 0 1 2 3; do
     for b in "${bodies[@]}"; do
         for h in "${hands[@]}"; do
             for m in "${marks[@]}"; do
-                "$ISAACSIM_ROOT/python.bat" inference.py \
+                "$ISAACSIM_ROOT/python.sh" inference.py \
                     --body "$b" \
                     --hand "$h" \
                     --mark "$m" \
@@ -37,7 +37,7 @@ for l in 0 1 2 3; do
     for b in "${bodies[@]}"; do
         for h in "${hands[@]}"; do
             for m in "${marks[@]}"; do
-                "$ISAACSIM_ROOT/python.bat" inference.py \
+                "$ISAACSIM_ROOT/python.sh" inference.py \
                     --body "$b" \
                     --hand "$h" \
                     --mark "$m" \
