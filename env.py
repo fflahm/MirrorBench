@@ -18,6 +18,10 @@ root_dict = {"none": "",
 
 class MirrorEnv:
     def __init__(self, sim_app, task_dict):
+        settings = carb.settings.get_settings()
+        settings.set("/rtx/rendermode", "PathTracing")
+        settings.set("/rtx/pathtracing/spp", 16)
+        
         # Initilize world
         self.sim_app = sim_app
         self.world = World(stage_units_in_meters=1.0)
