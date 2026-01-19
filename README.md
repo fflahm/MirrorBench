@@ -40,7 +40,7 @@ TODOs: Args; Results
 
 ### Model Type
 
-- Proprietary: To evaluate proprietary MLLMs with `OpenAI` client, you need to edit your own `api_key` and `base_url` in `agent.py`.
+- **Proprietary**: To evaluate proprietary MLLMs with `OpenAI` client, you need to edit your own `api_key` and `base_url` in `agent.py`.
 - Open-source(TBD)
 - Your own model(TBD)
 - Human baseline(TBD)
@@ -55,6 +55,7 @@ You may familiarize yourself with a single inference scenario in **MirrorBench**
 # Linux
 $ISAACSIM_ROOT/python.sh  inference.py --body male_0 --hand mano_white --mark splash --level 1 --model gpt-4o
 ```
+For each evaluation run, the framework automatically generates logs, observations, and result summaries in `log` and `results` directories.
 
 ### Full Evaluation
 We also provide scripts for full evaluation with over 5,000 inference steps per MLLM. To use them, run:
