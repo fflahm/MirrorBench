@@ -1,5 +1,7 @@
 # MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror
 
+## 交代一下软件环境、系统
+## 可以放一下embodiedeval链接
 <p align="center">
    <a href="https://fflahm.github.io/mirror-bench-page/" target="_blank">🌐 Project Page</a> | <a href="https://huggingface.co/datasets/flahm/MirrorBenchAssets" target="_blank">🤗 Data</a> | <a href="#" target="_blank">📃 Paper(TBD) </a>
 </p>
@@ -7,6 +9,20 @@
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="teasers/fig2.png">
 </div>
+
+## Tested Environments
+
+This repository has been tested and verified to work correctly on the following configurations:
+
+### Windows
+- OS: Windows 11
+- GPU: NVIDIA GeForce RTX 3080 Laptop
+- CUDA: 12.4
+
+### Linux
+- OS: Ubuntu 20.04
+- GPU: NVIDIA GeForce RTX 5090
+- CUDA: 12.8
 
 ## Installation
 
