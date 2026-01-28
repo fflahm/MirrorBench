@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--body", type=str)
 parser.add_argument("--hand", type=str)
 parser.add_argument("--mark", type=str)
-parser.add_argument("--level", type=int, help="MSR level: 0, 1, 2, or 3")
+parser.add_argument("--level", type=int, choices=[0, 1, 2, 3])
 parser.add_argument("--model", type=str, help="Model name to use")
 parser.add_argument("--max_steps", type=int, default=-1, help="Maximum number of steps, -1 for auto")
 parser.add_argument("--max_image_history", type=int, default=1, help="Maximum number of images to keep in history")
@@ -32,12 +32,10 @@ body = args.body
 hand = args.hand
 mark = args.mark
 level = args.level
-if level not in [0, 1, 2, 3]:
-    raise ValueError("Level must be 0, 1, 2, or 3")
 model = args.model
 tag = time.strftime("%Y%m%d-%H%M%S")
 
-result_dir = os.path.join("results", f"level{level}", model, f"{body}-{hand}-{mark}")
+result_dir = os.path.join("results", f"level{level}", model.replace("/", "-"), f"{body}-{hand}-{mark}")
 os.makedirs(result_dir, exist_ok=True)
 result_file = os.path.join(result_dir, f"{tag}.json")
 
@@ -76,7 +74,7 @@ with open(args_file, "w") as f:
         "hand": hand,
         "mark": mark,
         "level": level,
-        "model": model,
+        "model": model.replace("/", "-"),
         "max_steps": max_steps,
         "max_image_history": max_image_history
     }, f, indent=4)

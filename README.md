@@ -50,15 +50,13 @@ The necessary assets will be downloaded to the `assets` directory.
 
 ## Evaluation
 
-TODOs: Args; Results
-
 ### Model Type
 
 - **Proprietary**: To evaluate proprietary MLLMs with `OpenAI` client, you need to edit your own `api_key` and `base_url` in `agent.py`.
 - Open-source(TBD)
 - Your own model(TBD)
 - Human baseline(TBD)
-- Random baseline(TBD)
+- **Random baseline**: Set `--model random`.
 
 ### Single Scenario
 You may familiarize yourself with a single inference scenario in **MirrorBench** by running commands like:
