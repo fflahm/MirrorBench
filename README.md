@@ -1,7 +1,5 @@
 # MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror
 
-## 交代一下软件环境、系统
-## 可以放一下embodiedeval链接
 <p align="center">
    <a href="https://fflahm.github.io/mirror-bench-page/" target="_blank">🌐 Project Page</a> | <a href="https://huggingface.co/datasets/flahm/MirrorBenchAssets" target="_blank">🤗 Data</a> | <a href="#" target="_blank">📃 Paper(TBD) </a>
 </p>
