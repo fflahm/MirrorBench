@@ -1,7 +1,7 @@
 # MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror
 
 <p align="center">
-   <a href="https://fflahm.github.io/mirror-bench-page/" target="_blank">🌐 Project Page</a> | <a href="https://huggingface.co/datasets/flahm/MirrorBenchAssets" target="_blank">🤗 Data</a> | <a href="#" target="_blank">📃 Paper(TBD) </a>
+   <a href="https://fflahm.github.io/mirror-bench-page/" target="_blank">🌐 Project Page</a> | <a href="https://huggingface.co/datasets/flahm/MirrorBenchAssets" target="_blank">🤗 Data</a> | <a href="https://arxiv.org/abs/2604.14785" target="_blank">📃 Paper</a>
 </p>
 
 <div style="width: 100%; text-align: center; margin:auto;">
@@ -28,7 +28,7 @@ This repository has been tested and verified to work correctly on the following 
 Download and unzip NVIDIA Isaac Sim 4.5.0 (Standalone) from the official download page, choosing the link corresponding to your operating system:
 https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html.
 
-Then set the environment variable `ISAACSIM_ROOT`, for example: `set ISAACSIM_ROOT= "D:\isaac-sim-4.5.0"` (Windows) or `export ISAACSIM_ROOT=/home/user/isaac-sim-4.5.0` (Linux).
+Then set the environment variable `ISAACSIM_ROOT`, for example: `set ISAACSIM_ROOT="D:\isaacsim"` (Windows) or `export ISAACSIM_ROOT=/home/user/isaac-sim-4.5.0` (Linux).
 
 ### Install Dependencies
 Run:
@@ -84,5 +84,13 @@ evaluate.bat MODEL_NAME
 If you find our work interesting, please feel free to cite our paper:
 
 ```bibtex
-
+@misc{guo2026mirrorbenchevaluatingselfcentricintelligence,
+      title={MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror}, 
+      author={Shengyu Guo and Tongrui Ye and Jianbo Zhang and Zicheng Zhang and Chunyi Li and Guangtao Zhai},
+      year={2026},
+      eprint={2604.14785},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.14785}, 
+}
 ```
